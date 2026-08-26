@@ -225,3 +225,19 @@ a {
     font-size: 26px;
   }
 }
+
+pre {
+  background-color: #eeeeee;
+  color: #1e1e1e;
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+pre code {
+  background-color: transparent;
+  color: inherit;
+  white-space: pre-wrap;
+  padding: 0;
+  font-size: 16px;
+}
